@@ -1,5 +1,3 @@
-#coding Utf-8
-
 import os
 
 import time
@@ -8,10 +6,6 @@ def FirstDegreeEquation():
 
   if (StrEntered == "quit" or StrEntered == "QUIT" or StrEntered == "Quit"):
     quit()
-
-    if("=" not in StrEntered):
-        print("Equation incorrecte")
-        os.system("python main.py")
 
   xPosition = StrEntered.find("x")
 
