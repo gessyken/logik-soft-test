@@ -3,8 +3,6 @@ import tkinter
 
 from tkinter import messagebox
 
-import os
-
 import time
 
 def Quitt():
